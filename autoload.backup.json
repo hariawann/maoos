@@ -1,0 +1,26 @@
+{
+    "autoload": {
+    	"psr-4": {
+	      "Application\\":["Application/",
+	      					"Application/Controller",
+	      					"Application/Views",
+	      					"Application/Nodels",
+	      					"Application/Config"
+	      					],
+	      "Framework\\":["Framework/",
+	      				"Framework/Boots",
+	      				"Framework/Engine",
+	      				"Framework/Engine/Gear",
+	      				"Framework/Engine/Kopling",
+	      				"Framework/Engine/Boots"
+	      				],
+	      "Public\\":["Public/",
+	      			"Public/Src",
+	      			"Public/Src/Css",
+	      			"Public/Src/Js",
+	      			"Public/Src/Images",
+	      			"Public/Src/Uploads"]
+	    }
+    },
+    "require": {"doctrine/orm": "v2.5.6"}
+}

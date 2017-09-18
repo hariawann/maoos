@@ -1,0 +1,269 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+html{
+  background-image: url(../../img/yrbgz.png);
+  font-family: 'Roboto-Light','Source Sans Pro','Roboto-Light',sans-serif !important;
+  background-color: 
+}
+
+body {
+    background-image: url(../../img/yrbgv.png);
+}
+.scrollbar
+{
+  height: 350px;
+  width: 100%;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+#style-1::-webkit-scrollbar
+{
+  width: 3px;
+  background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  -moz-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+}
+
+#style-1::-moz-scrollbar
+{
+  width: 3px;
+  background-color: #F5F5F5;
+}
+
+#style-1::-moz-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  -moz-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+}
+
+.info{
+  display: inline-flex;
+  font-size: 14px;
+}
+
+.foto-icon{
+  width: 30px !important;
+  height: 30px !important;
+}
+.box-foto{
+  min-height: 250px;
+  max-height: 250px;
+  margin: auto;
+}
+
+.center{  
+  margin: auto;
+}
+
+.rate-bintang{
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+}
+
+.rate-bintang > li{
+{
+display: inline;
+list-style-type: none;
+padding-right: 20px;
+}
+
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+
+}
+
+#logo-container{
+  font-size: 25px;
+  }
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+  .card-content-detail{
+    margin-top: 40px;
+  }
+
+  .summary-jurnal-show{
+    display: block !important;
+  }
+
+  .summary-jurnal-hide{
+    display: none !important;
+  }
+
+  
+  .xs1{
+    width: 1% !important;
+  }
+  .xs12{
+    width: 98% !important;
+  }
+
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  .card-content-detail{
+    margin-top: 40px;
+  }
+
+  .summary-jurnal-show{
+    display: block !important;
+  }
+
+  .summary-jurnal-hide{
+    display: none !important;
+  }
+
+}
+
+@media (max-width : 325px) { 
+
+  .gambar-login{
+    height: 150px !important;
+  }
+
+  .user-foto.foto-detail {
+  width: 75px !important;
+  height: 75px !important;
+
+  }
+
+  .img-card-userdetail{
+    height: 150px !important;
+  }
+
+  .tabs-detail-profile{
+    display: none;
+  }
+
+  .card-content-detail{
+    margin-top: 20px;
+  }
+
+  .summary-jurnal-show{
+    display: block !important;
+  }
+
+  .summary-jurnal-hide{
+    display: none !important;
+  }
+}
+
+.summary-text{
+  color:#00bfa5;
+}
+
+.summary-jurnal-show{
+  display: none;
+}
+
+.summary-jurnal-hide{
+  display: block;
+}
+
+#btn-add{
+  margin: auto center !important;
+}
+
+.btn-basic{
+
+  border-radius: 45px !important;
+  background-color: transparent;
+  border: 1px solid #26a69a  !important;
+  color: #26a69a !important;
+  box-shadow:none;
+  text-transform: lowercase;
+}
+.btn-basic:hover{
+  color: white !important;
+  border:none;
+}
+
+.foto-nav{
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  vertical-align: middle;
+}
+.gambar-login{
+    height: 300px;
+  }
+
+.img-card-userdetail{
+  height: 250px;
+}
+
+.user-foto.foto-detail {
+  width: 100px;
+  height: 100px;
+}
+
+.user-nama.nama-detail{
+  font-size: 30px ;
+  text-shadow: 0 19px 38px rgba(0,0,0,0,0,30),!important;
+}
+.user-nama.nama-detail.level{
+  margin-top: -10px;
+  font-size: 15px !important;
+}
+
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}

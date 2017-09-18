@@ -1,0 +1,32 @@
+{
+    "autoload": {
+					"psr-4": {
+					"Application\\":				"Application/",
+					"Application\\Controller\\": 	"Application/Controller/",
+					"Application\\Views\\": 		"Application/Views/",
+					"Application\\Nodels\\": 		"Application/Nodels/",
+					"Application\\Config\\":		"Application/Config/",
+					"Framework\\":				"Framework/",
+					"Framework\\Boots\\":			"Framework/Boots/",
+					"Framework\\Engine\\":			"Framework/Engine/",
+					"Framework\\Engine\\Gear\\":	"Framework/Engine/Gear/",
+					"Framework\\Engine\\Kopling\\":	"Framework/Engine/Kopling/",
+					"Framework\\Engine\\Boots\\":	"Framework/Engine/Boots/",
+					"Framework\\Engine\\Template\\":	"Framework/Engine/Template/",
+					"Public\\": 					"Public/",
+					"Public\\Src\\":				"Public/Src/",
+					"Public\\Src\\Css\\":			"Public/Src/Css/",
+					"Public\\Src\\Js\\":			"Public/Src/Js/",
+					"Public\\Src\\Images\\": 		"Public/Src/Images/",
+					"Public\\Src\\Uploads\\": 		"Public/Src/Uploads/"
+					},
+					"files":[	    
+						"Framework/Engine/Kopling/Http/RouterHandler.php",
+						"Framework/Engine/Template/TemplateHandler.php",
+						"Application/Config/Route.php",
+						"Framework/Engine/Kopling/Http/ResponseHelper.php",
+						"Framework/Engine/Kopling/Http/RequestHelper.php"
+					]
+				}
+    
+}
