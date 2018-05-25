@@ -2,7 +2,7 @@ naming part consep arcitech framework maoo
 
 cantroller 	= NameController;
 function	= funcAction;
-model		= Name;
-table		= names;
+model		= Names;
+table		= name;
 
 data hasil queri adalah representasi dari table
