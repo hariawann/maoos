@@ -1,4 +1,0 @@
-idhostinger : kdh.hol.es
-user: u759442252
-host : 31.170.167.133
-port : 21
